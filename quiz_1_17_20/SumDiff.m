@@ -1,7 +1,6 @@
-function v = SumDiff(x,y)
+function [s d] = SumDiff(x,y)
 
-v = [0 0];
-v(1) = x + y;
-v(2) = x - y;
+s = x + y;
+d = x - y;
 
 endfunction
