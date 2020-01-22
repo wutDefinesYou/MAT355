@@ -1,6 +1,6 @@
 function [imin emin] = First(x)
-  
-%% Compute f?(x) at the point x = 0.5, with f(x) = sin(x)
+
+%% Compute f'(x) at the point x = 0.5, with f(x) = sin(x)
 %% and the absolute error between the definition of the derivative and differentiation rules
 %% Input:
 %%    x: will be 0.5 in this case
@@ -29,5 +29,5 @@ for i = 1:n
     imin = i;
   endif
   endfor
-  
+
 endfunction
